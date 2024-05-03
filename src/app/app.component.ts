@@ -14,7 +14,7 @@ export class AppComponent {
  apiURL : string;
 
  constructor(private http: HttpClient) {
- this.apiURL = '';
+ this.apiURL = 'https://api-todoapp-six.vercel.app/';
  this.READ_tarefas();
  }
 
